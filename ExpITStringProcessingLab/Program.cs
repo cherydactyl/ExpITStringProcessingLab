@@ -11,39 +11,47 @@ namespace ExpITStringProcessingLab
         static void Main(string[] args)
         {
             Console.WriteLine();        
-            //First, print out the words passed to the program in reverse order, word by word
+            //First, create a string of the words passed to the program in reverse order, word by word
+
+            //initialize the string
+            string allTheArgsReversed = "";
             for (int i = args.Length - 1; i >= 0; i--)  //for loop to decrement through the array
             {
-                Console.Write(args[i] + " ");
+                allTheArgsReversed = allTheArgsReversed + (args[i] + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine(allTheArgsReversed);
 
             Console.WriteLine();        //Whitespace for readability
             Console.WriteLine();        //Whitespace for readability
+
+
             //Next, print out every word passed to the program in all UPPERCASE
+
+            //initialize the string
+            string allTheArgsUpper = "";
             for (int i = 0; i < args.Length; i++ )  //for loop to increment through the array
             {
-                Console.Write(args[i].ToUpper() + " ");
+                allTheArgsUpper = allTheArgsUpper + args[i].ToUpper() + " ";
             }
-            Console.WriteLine();
+            Console.WriteLine(allTheArgsUpper);
 
             Console.WriteLine();        //Whitespace for readability
             Console.WriteLine();        //Whitespace for readability
             //Lastly, concatenate the strings from the command line separated by commas as one string and print it
 
             //initialize a target string as an empty string
-            string allTheArgs = "";
+            string allTheArgsWithCommas = "";
 
             for (int i = 0; i < args.Length; i++)  //for loop to increment through the array
             {
-                allTheArgs = allTheArgs + args[i];
-                if (i < args.Length - 1)
+                allTheArgsWithCommas = allTheArgsWithCommas + args[i];
+                if (i < args.Length - 1)    //only need a comma if this is not the last word
                 {
-                    allTheArgs = allTheArgs + ",";
+                    allTheArgsWithCommas = allTheArgsWithCommas + ",";
                 }
           
             }
-            Console.WriteLine(allTheArgs);
+            Console.WriteLine(allTheArgsWithCommas);
             Console.WriteLine();
             Console.WriteLine(); 
 
