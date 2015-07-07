@@ -1,0 +1,5 @@
+c:\users\cheryl\documents\visual studio 2013\Projects\ExpITStringProcessingLab\ExpITStringProcessingLab\bin\Debug\ExpITStringProcessingLab.exe.config
+c:\users\cheryl\documents\visual studio 2013\Projects\ExpITStringProcessingLab\ExpITStringProcessingLab\bin\Debug\ExpITStringProcessingLab.exe
+c:\users\cheryl\documents\visual studio 2013\Projects\ExpITStringProcessingLab\ExpITStringProcessingLab\bin\Debug\ExpITStringProcessingLab.pdb
+c:\users\cheryl\documents\visual studio 2013\Projects\ExpITStringProcessingLab\ExpITStringProcessingLab\obj\Debug\ExpITStringProcessingLab.exe
+c:\users\cheryl\documents\visual studio 2013\Projects\ExpITStringProcessingLab\ExpITStringProcessingLab\obj\Debug\ExpITStringProcessingLab.pdb
